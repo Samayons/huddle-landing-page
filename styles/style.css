@@ -143,6 +143,7 @@ footer {
 
 .row {
   margin-top: 25%;
+  height: auto;
 }
 
 .col-12 {
@@ -188,6 +189,192 @@ h4 {
   margin: 5% 3%;
   background-color: #ffffff;
   border-radius: 50%;
+}
+
+/* desktop version */
+@media only screen and (min-width: 1020px) {
+  header {
+    padding: 40px 40px 0 40px;
+    background-image: url("/images/bg-hero-desktop.svg");
+  }
+
+  nav button {
+    width: 120px;
+    height: 30px;
+    border-radius: 15px;
+  }
+
+  nav img {
+    height: auto;
+    width: 12%;
+  }
+
+  section {
+    display: flex;
+    flex-flow: row;
+    align-items: flex-start;
+    padding: 50px 0 50px 0;
+  }
+
+  article {
+    text-align: left;
+  }
+
+  section .pink-button {
+    position: absolute;
+    top: 28rem;
+  }
+
+  section .intro-section {
+    position: relative;
+    padding-right: 80px;
+    width: 40%;
+    top: 10px;
+  }
+
+  .intro-section h1 {
+    font-size: 35px;
+    padding-right: 90px;
+  }
+
+  header section img{
+    position: relative;
+    right: -4rem;
+    width: 55%;
+    height: auto;
+  }
+
+  main {
+    margin-top: 8%;
+    margin-bottom: 25%;
+    display: flex;
+    flex-flow: column;
+  }
+
+  main section {
+    margin-bottom: 0;
+    height: 33.3%;
+    max-height: 70%;
+  }
+
+  main section:nth-child(2) {
+    display: flex;
+    flex-flow: row;
+  }
+
+  main section:nth-child(2) img {
+    left: 0;
+  }
+
+  main section:nth-child(2) h2 {
+    left: 15rem;
+  }
+
+  main section:nth-child(2) p {
+    left: -7rem;
+  }
+
+  main section img {
+    position: relative;
+    right: -55%;
+  }
+
+  main section h2 {
+    position: relative;
+    text-align: left;
+    left: -40%;
+    margin: 0;
+    top: 150px;
+    width: 100%;
+  }
+
+  main section p {
+    position: relative;
+    left: -67%;
+    margin: 0;
+    top: 200px;
+    text-align: left;
+    width: 100%;
+  }
+
+  aside {
+    max-width: 50%;
+    position: relative;
+    top: -13rem;
+    left: 25%;
+  }
+
+  footer {
+    padding-bottom: 0;
+  }
+
+  .aside-article {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+  }
+
+  .aside-article button {
+    height: 25%;
+    border-radius: 25px;
+  }
+
+  .row {
+    margin: 100px 50px 0 50px;
+    height: 350px;
+  }
+
+  .common-feature {
+    width: 25%;
+    height: auto;
+    margin-top: 3%;
+  }
+
+  .row .icon-phone, .row .icon-email {
+    margin-top: 10px;
+  }
+
+  #footer-info {
+   margin-top: 0;
+   left: 30rem;
+   top: -13.3rem;
+  }
+
+  .footer-info {
+    position: relative;
+    left: 50rem;
+    top: -20.3rem;
+    width: max-content;
+  }
+
+  .footer-info h4 {
+    margin-bottom: 12px;
+  }
+
+  .row .footer-logo img {
+    width: 15%;
+    height: auto;
+  }
+
+  .footer-img {
+    position: relative;
+    width: max-content;
+    height: 15rem;
+    left: 61.5rem;
+    top: -26.7rem;
+  }
+
+  .footer-img img {
+    position: relative;
+    margin-top: 0;
+    left: -6.3rem;
+  }
+
+  .footer-img p {
+    text-align: left;
+    position: relative;
+    top: 74%;
+  }
 }
 
 
